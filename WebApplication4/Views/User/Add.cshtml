@@ -1,0 +1,51 @@
+﻿
+@{
+    Layout = null;
+}
+@await Html.PartialAsync("~/Views/Shared/Userlayout.cshtml")
+@model WebApplication4.Models.UserDetail
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/css/Showinfo.css" />
+    <link rel="stylesheet" href="~/css/UserIndex.css"/>
+    <title>Add</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron" id="user_Add_Equip">
+
+        </div>
+        <form method="post">
+            <table class="table">
+                <tr>
+                    <td class="title">EquipName</td>
+                    <td class="title">EquipDes</td>
+                    <td class="title">Type</td>
+                    <td></td>
+                </tr>
+                @*@for (int i = 0; i <= (int)ViewData["Count"]; i++)
+                {
+                    <tr>
+                        <td>@ViewData["UserName"]</td>
+                        <td>@ViewData["EquipName"]</td>
+                        <td>@ViewData["EquipDes"]</td>
+                        <td>@ViewData["TypeName"]</td>
+                    </tr>
+                }*@
+                @foreach (var i in Model.UserIndex)
+                {
+                    <tr>
+                        <td>@i.EquipName</td>
+                        <td>@i.EquipDes</td>
+                        <td>@i.TypeName</td>
+                        <td><button class="btn btn-primary" asp-action="Addbtn" name="Add" value="@i.EquipID"><i class="fas fa-plus-square"></i> Add</button></td>
+                    </tr>
+                }
+            </table>
+        </form>
+    </div>
+</body>
+</html>

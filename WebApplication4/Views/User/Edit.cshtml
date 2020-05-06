@@ -1,0 +1,44 @@
+﻿
+@{
+    Layout = null;
+}
+@await Html.PartialAsync("~/Views/Shared/Userlayout.cshtml")
+@model UserPass;
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/css/Showinfo.css" />
+    <link rel="stylesheet" href="~/css/AdminEditEquip.css" />
+    <title>Edit</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Trang Edit</h1>
+        <form method="get">
+            @*<div class="form-group">
+            <label>Nhap lai mat khau cu</label>
+            <input type="password" class="form-control" name="password" required="required"/>
+            <label>Nhap mat khau moi</label>
+            <input type="password" class="form-control" name="newpass" required="required"/>
+            <label>Xac minh lai mat khau</label>
+            <input type="password" class="form-control" name="newpass2" required="required"/>
+        </div>*@
+            <div class="form-group">
+                <label>Nhap lai mat khau cu</label>
+                <input type="password" class="form-control" asp-for="Password" />
+                <span asp-validation-for="Password"></span><br />
+                <label>Nhap mat khau moi</label>
+                <input type="password" class="form-control" asp-for="Newpass" />
+                <span asp-validation-for="Newpass"></span><br />
+                <label>Xac minh lai mat khau</label>
+                <input type="password" class="form-control" asp-for="Newpass2" />
+                <span asp-validation-for="Newpass2"></span><br />
+            </div>
+            <button type="submit" class="btn btn-primary" asp-action="Editinfo">Luu Mat Khau</button>
+        </form>
+        <h1>@ViewData["error"]</h1>
+    </div>
+</body>
+</html>

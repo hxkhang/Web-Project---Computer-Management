@@ -1,0 +1,36 @@
+﻿
+@{
+    Layout = null;
+}
+@model AddEmploy;
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/Login.css"/>
+    <title>Index</title>
+</head>
+<body>
+    <div class="container">
+        <form action="~/Login/Authentication" method="post">
+            <h1 class="d-flex justify-content-center">Sign in</h1>
+            <div class="form-group row ">
+                <div class="col-md-4 d-flex justify-content-center"><p>Username </p></div>
+                @*<div class="col-sm-10">@Html.EditorFor(model => model.UserName)</div>*@
+                <div class="col-sm-8"><input type="text" asp-for="UserName" /></div>
+                <span asp-validation-for="UserName"></span>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-4 d-flex justify-content-center"><p>Password</p></div>
+                <div class="col-md-8"><input type="password" asp-for="UserPass"/></div>
+                <span asp-validation-for="UserPass"></span>
+            </div>
+            <button class="btn btn-primary d-flex justify-content-center" type="submit">Submit</button>
+        </form>
+    </div>
+    <h1>@ViewData["Message"]</h1>
+    <h1 class="d-flex justify-content-center">@ViewData["Error"]</h1>
+</body>
+</html>

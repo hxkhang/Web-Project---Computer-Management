@@ -1,0 +1,37 @@
+﻿
+@{
+    Layout = null;
+}
+@model EquipInfo;
+@await Html.PartialAsync("~/Views/Shared/Userlayout.cshtml")
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/css/AdminEditEquip.css" />
+    <title>EditEquip</title>
+</head>
+<body>
+    <div class="container edit-Equip">
+        <form method="post">
+            <div class="form-group row">
+                <label class="col-md-4">Equip Name:</label>
+                <input class="form-control col-md-8" type="text" value="@Model.EquipName"asp-for="EquipName" required />
+                <span asp-validation-for="EquipName"></span>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-4">Equip Des</label>
+                <textarea rows="4" class="form-control col-md-8" asp-for="EquipDes"></textarea>
+                <span asp-validation-for="EquipDes"></span>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-4">Type Name</label>
+                <input class="col-md-8" value="@Model.TypeName" disabled asp-for="TypeName"/>
+            </div>
+            <button class="btn btn-primary d-flex justify-content-center" asp-action="ConfirmEdit" value="@Model.EquipID" name="Edit">Edit</button>
+            <h1 class="d-flex justify-content-center">@ViewData["Info"]</h1>
+        </form>
+    </div>
+</body>
+</html>

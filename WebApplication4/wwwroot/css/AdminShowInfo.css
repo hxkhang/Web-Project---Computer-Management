@@ -1,0 +1,46 @@
+﻿.jumbotron {
+    background-image: url("https://as2.ftcdn.net/jpg/02/73/05/63/500_F_273056376_L6JwPs2QXtphfuPtqq27T8Cj4w1UdObo.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:25rem;
+    width:100%;
+}
+body{
+    background-color:whitesmoke;
+}
+#admin_Index_Bacground_Account {
+    background-image: url("https://images.unsplash.com/photo-1527064563585-6c7b2c1c3690?ixlib=rb-1.2.1&auto=format&fit=crop&w=803&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20rem;
+    border-radius: 50px;
+}
+#admin_Index_Bacground_Account img {
+    height: 75%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.col-md-6 section p{
+    margin-top:1rem;
+}
+.col-md-6 section button {
+    margin-top: 1rem;
+}
+.col-md-6{
+    margin-bottom:3rem;
+}
+#admin_Index_Bacground_Equip {
+    background-image: url("/images/equipLogoSmall.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 20rem;
+    border-radius: 50px;
+}
+

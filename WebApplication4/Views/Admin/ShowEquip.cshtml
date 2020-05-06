@@ -1,0 +1,43 @@
+﻿
+@{
+    Layout = null;
+}
+@await Html.PartialAsync("~/Views/Shared/AdminLayout.cshtml")
+@model UserDetail;
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/css/Showinfo.css" />
+    <title>ShowEquip</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <img src="~/images/st-inventory-updated-icons.jpg"/>
+    </div>
+    <div class="container">
+        <form>
+            <table class="table">
+                <tr>
+                    <td><h3>Equip Name</h3></td>
+                    <td><h3>Equip Des</h3></td>
+                    <td><h3>Type Name</h3></td>
+                    <td></td>
+                </tr>
+                @foreach (var item in Model.EquipInfos)
+                {
+                <tr>
+                    <td>@item.EquipName</td>
+                    <td>@item.EquipDes</td>
+                    <td>@item.TypeName</td>
+                    <td>
+                        <button class="btn btn-info" asp-action="EditEquip" name="Edit" value="@item.EquipID">Edit</button>
+                        <button class="btn btn-danger" asp-action="DelEquip" name="EquipID" value="@item.EquipID">Delete</button>
+                    </td>
+                </tr>}
+            </table>
+        </form>
+    </div>
+</body>
+</html>

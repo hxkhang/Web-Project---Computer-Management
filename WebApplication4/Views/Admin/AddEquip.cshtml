@@ -1,0 +1,41 @@
+﻿
+@{
+    Layout = null;
+}
+<partial name="AdminLayout" />
+@model Equip;
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/css/AdminEditEquip.css"/>
+    <title>AddEquip</title>
+</head>
+<body>
+    <div class="container">
+        <form method="post">
+            <div class="form-group row">
+                <label class="col-md-4">Equip Name</label>
+                <input class="col-md-8 form-control" type="text" asp-for="EquipName"  />
+                <span asp-validation-for="EquipName"></span>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-4">Equip Des</label>
+                <textarea rows="4" class="form-control col-md-8" asp-for="EquipDes"></textarea>
+                <span asp-validation-for="EquipDes"></span>
+            </div>
+            <div class="form-group row">
+                <label class="col-md-4">Type Name</label>
+                <select class="form-control col-md-8" asp-for="TypeID">
+                    <option disabled selected>Select Type</option>
+                    <option value="2">PC</option>
+                    <option value="1">Laptop</option>
+                </select>
+                <span asp-validation-for="TypeID"></span>
+            </div>
+            <button class="btn btn-primary d-flex justify-content-center" asp-action="CreateEquip">Add</button>
+        </form>
+    </div>
+</body>
+</html>

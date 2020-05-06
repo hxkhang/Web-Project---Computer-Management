@@ -1,0 +1,45 @@
+﻿
+@{
+    Layout = null;
+}
+@await Html.PartialAsync("~/Views/Shared/Userlayout.cshtml")
+@model UserDetail;
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/css/Showinfo.css"/>
+    <link rel="stylesheet" href="~/css/UserIndex.css"/>
+    <title>Index</title>
+</head>
+<body>
+    <h1></h1>
+    <div class="container">
+        <div class="jumbotron">
+            <img src="~/images/inventory-1.jpg" />
+        </div>
+        <form action="~/User/Del">
+            <table class="table">
+                <tr>
+                    <td class="title">UserName</td>
+                    <td class="title">EquipName</td>
+                    <td class="title">EquipDes</td>
+                    <td class="title">Type</td>
+                    <td></td>
+                </tr>
+                @foreach (var i in Model.UserIndex)
+                {
+                    <tr>
+                        <td>@i.UserName</td>
+                        <td>@i.EquipName</td>
+                        <td>@i.EquipDes</td>
+                        <td>@i.TypeName</td>
+                        <td><button class="btn btn-danger" asp-action="Del" name="Delete" value="@i.EquipID">Delete</button></td>
+                    </tr>
+                }
+            </table>
+        </form>
+    </div>
+</body>
+</html>

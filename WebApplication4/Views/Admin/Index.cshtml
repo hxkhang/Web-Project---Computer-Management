@@ -1,0 +1,49 @@
+﻿
+@{
+    Layout = null;
+}
+@await Html.PartialAsync("~/Views/Shared/AdminLayout.cshtml")
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/AdminShowInfo.css"/>
+    <title>Index</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+
+        </div>
+        <form>
+            <div class="row">
+
+                @*show account*@
+                <div class="col-md-6 d-flex align-items-center justify-content-center">
+                    <section class="text-center">
+                        <h1>Account Information</h1>
+                        <p class="">You can check all the Account's information</p>
+                        <div class=""><button type="submit" class="btn btn-primary">Xem Thong Tin</button></div>
+                    </section>
+                </div>
+                <div class="col-md-6" id="admin_Index_Bacground_Account"><img src="http://simpleicon.com/wp-content/uploads/account.png" /></div>
+            </div>
+            @*Show Equip*@
+            <div class="row">
+                <div class="col-md-6" id="admin_Index_Bacground_Equip"></div>
+                <div class="col-md-6 d-flex align-items-center justify-content-center">
+                    <section class="text-center">
+                        <h1>Equips Information</h1>
+                        <p class="">You can check all the Equip's information</p>
+                        <div class=""><button type="submit" class="btn btn-primary" asp-controller="Admin" asp-action="ShowEquip">Xem Thong Tin</button></div>
+                    </section>
+                </div>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>

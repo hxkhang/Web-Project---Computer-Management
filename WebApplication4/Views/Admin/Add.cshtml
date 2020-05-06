@@ -1,0 +1,48 @@
+﻿
+@{
+    Layout = null;
+}
+@await Html.PartialAsync("~/Views/Shared/AdminLayout.cshtml")
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/css/AdminShowInfo.css" />
+    <title>Add</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+
+        </div>
+        <form>
+            <div class="row">
+
+                @*show account*@
+                <div class="col-md-6 d-flex align-items-center justify-content-center">
+                    <section class="text-center">
+                        <h1>Add Account</h1>
+                        <p class="">You can add more Account</p>
+                        <div><button type="submit" class="btn btn-primary" asp-controller="Admin" asp-action="AddAcc">Add</button></div>
+                    </section>
+                </div>
+                <div class="col-md-6" id="admin_Index_Bacground_Account"><img src="http://simpleicon.com/wp-content/uploads/account.png" /></div>
+            </div>
+            @*Show Equip*@
+            <div class="row">
+                <div class="col-md-6" id="admin_Index_Bacground_Equip"></div>
+                <div class="col-md-6 d-flex align-items-center justify-content-center">
+                    <section class="text-center">
+                        <h1>Add Equips</h1>
+                        <p class="">You can add more Equip</p>
+                        <div><button type="submit" class="btn btn-primary" asp-controller="Admin" asp-action="AddEquip">Add</button></div>
+                    </section>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

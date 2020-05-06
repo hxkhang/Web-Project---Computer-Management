@@ -1,0 +1,90 @@
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\bin\Debug\netcoreapp2.1\WebApplication4.deps.json
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\bin\Debug\netcoreapp2.1\WebApplication4.runtimeconfig.json
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\bin\Debug\netcoreapp2.1\WebApplication4.runtimeconfig.dev.json
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\bin\Debug\netcoreapp2.1\WebApplication4.dll
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\bin\Debug\netcoreapp2.1\WebApplication4.pdb
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\bin\Debug\netcoreapp2.1\WebApplication4.Views.dll
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\bin\Debug\netcoreapp2.1\WebApplication4.Views.pdb
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.csproj.CoreCompileInputs.cache
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.RazorAssemblyInfo.cache
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.RazorAssemblyInfo.cs
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.AssemblyInfoInputs.cache
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.AssemblyInfo.cs
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.TagHelpers.input.cache
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.TagHelpers.output.cache
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.RazorCoreGenerate.cache
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.RazorTargetAssemblyInfo.cache
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.RazorTargetAssemblyInfo.cs
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.Views.pdb
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.dll
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.pdb
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.csproj.CopyComplete
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Login\Index.g.cshtml.cs
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Userlayout.g.cshtml.cs
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Index.g.cshtml.cs
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\User\Index.g.cshtml.cs
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\User\Add.g.cshtml.cs
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\User\Edit.g.cshtml.cs
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\User\Delete.g.cshtml.cs
+C:\Users\hxkhang\Documents\Visual Studio 2017\Projects\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.csprojAssemblyReference.cache
+D:\WebApplication4\WebApplication4\bin\Debug\netcoreapp2.1\WebApplication4.deps.json
+D:\WebApplication4\WebApplication4\bin\Debug\netcoreapp2.1\WebApplication4.runtimeconfig.json
+D:\WebApplication4\WebApplication4\bin\Debug\netcoreapp2.1\WebApplication4.runtimeconfig.dev.json
+D:\WebApplication4\WebApplication4\bin\Debug\netcoreapp2.1\WebApplication4.dll
+D:\WebApplication4\WebApplication4\bin\Debug\netcoreapp2.1\WebApplication4.pdb
+D:\WebApplication4\WebApplication4\bin\Debug\netcoreapp2.1\WebApplication4.Views.dll
+D:\WebApplication4\WebApplication4\bin\Debug\netcoreapp2.1\WebApplication4.Views.pdb
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.csprojAssemblyReference.cache
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.csproj.CoreCompileInputs.cache
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.RazorAssemblyInfo.cache
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.RazorAssemblyInfo.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.AssemblyInfoInputs.cache
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.AssemblyInfo.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.TagHelpers.input.cache
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.TagHelpers.output.cache
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.RazorCoreGenerate.cache
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Index.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Login\Index.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Userlayout.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\User\Add.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\User\Delete.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\User\Edit.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\User\Index.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.RazorTargetAssemblyInfo.cache
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.RazorTargetAssemblyInfo.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.Views.pdb
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.dll
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.pdb
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\WebApplication4.csproj.CopyComplete
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\TestLocal\Index.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Shared\AdminLayout.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Add.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Admin\Edit.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Admin\ShowEquip.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Admin\EditEquip.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AddEquip.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Login\ErrorForbidden.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Login\ErrorNotLogIn.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Login\Test.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Admin\AddAcc.g.cshtml.cs
+D:\WebApplication4\WebApplication4\obj\Debug\netcoreapp2.1\Razor\Views\Admin\ConfirmEdit.g.cshtml.cs

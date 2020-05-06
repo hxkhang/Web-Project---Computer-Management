@@ -1,0 +1,40 @@
+﻿input{
+    width:100%;
+}
+body {
+    background-image: url("/images/mountains.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    margin-top:5%;
+    width:55%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1rem;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    font-weight: 700;
+    color: white
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white
+}
+.btn {
+    width: 30%;
+    margin-top: 1rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+.form-group{
+    margin-top:1rem;
+}
+span{
+    color:red
+}
